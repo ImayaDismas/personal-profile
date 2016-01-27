@@ -16,9 +16,10 @@
 	.reveal-modal {
 		visibility: hidden;
 		top: 100px; 
-		left: 61%;
+		left: 59%;
 		margin-left: -300px;
-		width: 720px;
+		width: 60%;
+        height: 500px;
 		background: #eee url(modal-gloss.png) no-repeat -200px -80px;
 		position: absolute;
 		z-index: 101;
