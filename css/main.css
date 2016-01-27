@@ -99,7 +99,7 @@ body{
     animation: titleAnimation 40s linear infinite 0s; 
 }
 .cb-slideshow li div h3 { 
-    font-family: 'Raleway','Fontin', 'Fertigo', sans-serif;
+    font-family: 'Raleway','serif';
     font-size: 90px;
     font-weight:bolder;
     line-height:200px;
