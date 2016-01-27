@@ -421,9 +421,8 @@ button {
   line-height: 1; }
 
 .row {
-  max-width: 75rem;
-  margin-left: auto;
-  margin-right: auto; }
+  width: 100%;
+}
   .row::before, .row::after {
     content: ' ';
     display: table; }
@@ -433,8 +432,8 @@ button {
     padding-left: 0;
     padding-right: 0; }
   .row .row {
-    margin-left: -0.9375rem;
-    margin-right: -0.9375rem; }
+    margin-left: -2.9375rem;
+    margin-right: -2.9375rem; }
     .row .row.collapse {
       margin-left: 0;
       margin-right: 0; }

@@ -1,9 +1,8 @@
 body{
     font-family: 'Raleway','Fontin' 'Fertigo';
-    
 }
 .row1{
-    height: 655px;
+    height: 650px;
 }
 .home h1{
     z-index: 3;
@@ -37,9 +36,9 @@ body{
     position: absolute;
     top: 0px;
     left: 0px;
+    border-radius: 25px;
     color: transparent;
     background-size: cover;
-    background-position: 50% 50%;
     background-repeat: none;
     opacity: 0;
     z-index: 1;
