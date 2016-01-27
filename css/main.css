@@ -48,6 +48,15 @@ body{
     color: white;
     background-color: #D0906D;
 }
+.picture img {
+    border-radius: 50%;
+    height: 200px;
+    margin: -66px 0 22px 0;
+    vertical-align: top;
+    position: absolute;
+    top:80px;
+    z-index: 2000;
+}
 .cb-slideshow,
 .cb-slideshow:after { 
     position: relative;
