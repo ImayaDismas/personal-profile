@@ -129,11 +129,12 @@ body{
 }
 .cb-slideshow li div { 
     z-index: 3;
-    position: absolute;
+    position: relative;
     bottom: 30px;
     left: 0px;
     width: 100%;
     text-align: center;
+    margin-left: 10%;
     opacity: 0;
     color: #fff;
     -webkit-animation: titleAnimation 40Ss linear infinite 0s;
@@ -144,9 +145,9 @@ body{
 }
 .cb-slideshow li div h3 { 
     font-family: 'Raleway','serif';
-    font-size: 90px;
+    font-size: 64px;
     font-weight:bolder;
-    line-height:200px;
+    line-height:120px;
     position: relative;
 }
 .cb-slideshow li:nth-child(1) span { 
@@ -169,7 +170,7 @@ body{
     animation-delay: 16s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url("designimayanice.jpg");
+    background-image: url("replace.jpg");
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
