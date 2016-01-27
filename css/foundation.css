@@ -423,11 +423,7 @@ button {
 .row {
   width: 100%;
 }
-  .row::before, .row::after {
-    content: ' ';
-    display: table; }
-  .row::after {
-    clear: both; }
+  
   .row.collapse > .column, .row.collapse > .columns {
     padding-left: 0;
     padding-right: 0; }
@@ -462,9 +458,7 @@ button {
 
 .column, .columns {
   width: 100%;
-  float: left;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem; }
+   }
   .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
     float: right; }
   .column.end:last-child:last-child, .end.columns:last-child:last-child {
