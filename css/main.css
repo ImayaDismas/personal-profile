@@ -1,5 +1,5 @@
 body{
-    font-family: 'Raleway','Fontin' 'Fertigo';
+    font-family: 'Raleway', 'serif';
 }
 .row1{
     height: 650px;
@@ -13,6 +13,40 @@ body{
     font-weight:bolder;
     line-height: 85px;
     margin-top: -580px;
+}
+.menu_simple ul {
+    margin-top: 35px;
+    padding: 0;
+    width:185px;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 100px;
+    margin-left: 50px;
+    z-index: 1000;
+    position: absolute;
+    top:100px;
+}
+.menu_simple ul h4{
+    color:#C68E17;
+    font-weight: 900;
+    font-size: 26px;
+}
+.menu_simple ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10.5px 11px;
+    background-color: #C68E17;
+    display:block;
+    border-radius: 25px;
+    font-weight: 400;
+}
+.menu_simple ul li a:visited {
+    color: white;
+}
+
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: white;
+    background-color: #D0906D;
 }
 .cb-slideshow,
 .cb-slideshow:after { 
@@ -227,3 +261,4 @@ body{
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
 }
+
