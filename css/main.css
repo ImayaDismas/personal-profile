@@ -2,17 +2,7 @@ body{
     font-family: 'Raleway', 'serif';
 }
 .row1{
-    height: 650px;
-}
-.home h1{
-    z-index: 3;
-    position: relative;
-    text-align: center;
-    color: white;
-    font-size: 140px;
-    font-weight:bolder;
-    line-height: 85px;
-    margin-top: -580px;
+    height: 500px;
 }
 .menu_simple ul {
     margin-top: 35px;
@@ -170,7 +160,7 @@ body{
     animation-delay: 16s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url("design.jpg");
+    background-image: url("replace.jpg");
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
