@@ -15,7 +15,7 @@
 	
 	.reveal-modal {
 		visibility: hidden;
-		top: 100px; 
+		top: 30px; 
 		left: 59%;
 		margin-left: -300px;
 		width: 60%;
@@ -43,14 +43,14 @@
 		position: absolute;
 		top: 8px;
 		right: 11px;
-		color: red;
+		color: #8B3A3A;
 		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
 		font-weight: bold;
 		cursor: pointer;
 		} 
 .sample{
         visibility: hidden;
-		top: 100px; 
+		top: 30px; 
 		left: 40%;
 		margin-left: -300px;
         margin-right: 300px;

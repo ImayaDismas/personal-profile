@@ -301,3 +301,34 @@ body{
     width: 60%;
     margin-left: -54px;
 }
+#id_number2{
+    position: relative;
+    width:100%;
+/*    margin-left: 10%;*/
+}
+#id_number{
+    position:relative;
+    width:100%;
+}
+#id_number1{
+    position: relative;
+    width:96%;
+    margin-left: 20%;
+}
+.format{
+    display: inline-block;
+}
+.button{
+    background-color: #8B3A3A;
+    margin-left: 80%;
+    border-radius: 25px;
+    width: 20%;
+    color: white;
+    font-weight: bolder;
+}
+.button:hover{
+    background-color: #D0906D;
+}
+form{
+    color: black;
+}
