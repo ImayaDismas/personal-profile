@@ -63,19 +63,25 @@
             </div>
             <div id="myModal3" class="row reveal-modal sample">
                 <h1>Get in touch</h1>
-                <p>Got a project you would like me to work on?</br> Or how about just a friendly chat? </br>Give me an email and we can grab alovely brew.</p>
-                <form action="http://formspree.io/imayadismas@gmail.com" method= "POST">
-                      <div class="columns small-4">
-                          <input style="background-color:transparent" type="text" name="name" placeholder="Name..." id="id_number2" size="7" maxlength="10" />
-                      </div> 
-                      <div class="columns small-4">
-                          <input style="background-color:transparent" type="email" name="email" placeholder="Email..." type="email" required/> 
-                      </div>
-                      <div class="columns small-8">
-                          <textarea  style="background-color:transparent" name="message" id="id_number" rows="5" cols="60" wrap="physical" placeholder="Your Message here..."></textarea>
-                      </div>
-                      <button style="width:30%;" class="button" type="submit">Submit</button>
-                  </form>
+                <p>Got a project you would like me to work on? Or how about just a friendly chat? Give me an email and we can grab alovely brew.</p>
+                <form id="contactform" action="http://formspree.io/imayadismas@gmail.com"
+          method="POST">
+             <div class="form column small-6">
+              <input type="hidden" name="_subject" value="Personal Website" />
+               <input style="background-color:transparent" type="text" name="Name" placeholder="Name..." id="id_number2" size="10" maxlength="10" />
+           </div>
+           <div class="form column small-6">
+                 <input style="background-color:transparent" type="email" name="Email" placeholder="Email..." id="id_number1"/>  
+           </div>
+           <div class="columns form small-12">
+               <textarea  style="background-color:transparent" name="Message" id="id_number" rows="10" cols="50" wrap="physical" placeholder="Your Message here..."> 
+</textarea>
+              <input type="hidden" name="_next" value="//delaniimaya.bitballoon.com" />
+              <input type="text" name="_gotcha" style="display:none" />
+               </br>
+               <button boarder-radius="25px" class="button" type="submit">Submit</button> 
+           </div>              
+               </form>
                 <a class="close-reveal-modal">&#215;</a>
             </div>
         </div>
