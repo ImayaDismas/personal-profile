@@ -349,3 +349,12 @@ form{
     font-weight: bold;
     z-index: 1000;
 }
+.foot h5{
+    position: absolute;
+    text-align: center;
+    color: #D0906D;
+    padding-top: 60px;
+    padding-left: 10px;
+    font-weight: bold;
+    z-index: 1000;
+}
