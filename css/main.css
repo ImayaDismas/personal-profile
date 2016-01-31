@@ -349,7 +349,7 @@ form{
     font-weight: bold;
     z-index: 1000;
 }
-.foot h5{
+#myModal4 h5{
     position: absolute;
     text-align: center;
     color: #D0906D;
@@ -373,4 +373,7 @@ form{
 .block:hover img {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
+}
+.inside{
+    display: inline-block;
 }
