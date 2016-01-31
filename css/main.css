@@ -332,3 +332,20 @@ body{
 form{
     color: black;
 }
+.social{
+    position: absolute;
+    margin-top: 50px;
+    display:inline-block;
+    padding-left: 75%;
+    height: 100px;
+    z-index: 1000;
+}
+.foot h4{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 90px;
+    padding-left: 42%;
+    font-weight: bold;
+    z-index: 1000;
+}
