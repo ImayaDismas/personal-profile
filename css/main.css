@@ -141,7 +141,7 @@ body{
     position: relative;
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url("originalroadImaya.jpg");
+    background-image: url("index.jpg");
 }
 .cb-slideshow li:nth-child(2) span { 
     background-image: url("design.jpg");
@@ -353,8 +353,8 @@ form{
     position: absolute;
     text-align: center;
     color: #D0906D;
-    padding-top: 60px;
-    padding-left: 10px;
+    padding-top: 30px;
+    padding-left: 30%;;
     font-weight: bold;
     z-index: 1000;
 }
