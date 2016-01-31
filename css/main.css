@@ -358,3 +358,8 @@ form{
     font-weight: bold;
     z-index: 1000;
 }
+.block{
+    display: inline-block;
+    width: 24%;
+    padding-left: 20px;
+}
