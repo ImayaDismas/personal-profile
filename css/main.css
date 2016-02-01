@@ -329,6 +329,17 @@ body{
 .button:hover{
     background-color: #D0906D;
 }
+.button1{
+    background-color: #8B3A3A;
+    border-radius: 25px;
+    width: 60%;
+    height: 80px;
+    color: white;
+    font-weight: bolder;
+}
+.button1:hover{
+    background-color: #D0906D;
+}
 form{
     color: black;
 }
